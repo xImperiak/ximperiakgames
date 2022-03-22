@@ -72,7 +72,7 @@ class Gadget {
   }
   
 function  gadgetGen(){
-	if(0 == round(random(0,500000/deltaTime/(difficulty+10)))){
+	if(0 == round(random(0,50000/deltaTime/(difficulty+10)))){
 		if (1 == round(random(0,1))){
 			let g = new Gadget(random(0, width), random(0, height), round(random(0,6)), true);
 			gadgets.push(g);
